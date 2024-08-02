@@ -1,0 +1,93 @@
+salarydaily = salarymonthly / salarymonthlydays, salaryhourly = salarydaily / hoursbyday, gasolinecostperkm = gasolinefull / gasolinekms, oilbykm = oilfull / oilrenewkms, soatdaily = soatyearly / yearlydays, soathourly = soatdaily / hoursbyday, technomechanicaldaily = technomechanicalyearly / yearlydays, technomechanicalhour = technomechanicaldaily / hoursbyday, dailymaintenance = quarterlymaintenance / quarterlydays, hourmaintenance = dailymaintenance / hoursbyday, taxesdaily = anuallytaxes / yearlydays, taxeshourly = taxesdaily / hoursbyday, drivenhourcostcity = salaryhourly, drivenhourcostrural = ((salaryhourly * 103.1)/100) + salaryhourly, totalcostdrivencity = drivenhourcostcity * drivenhourscity, totalcostdrivenrural = drivenhourcostrural * drivenhoursrural, minimalprofit = salaryhourly, gasolinecity = deliverydistancecity * gasolinecostperkm, gasolinerural = deliverydistancerural * gasolinecostperkm, oilcity = deliverydistancecity * oilbykm, oilrural = deliverydistancerural * oilbykm, soatcity = (tripcity + roundtripcity) * soathourly, soatrural = (triprural + roundtriprural) * soathourly, technocity = (tripcity + roundtripcity) * technomechanicalhour, technorural = (triprural + roundtriprural) * technomechanicalhour, maintenancecity = (tripcity + roundtripcity) * hourmaintenance, maintenancerural = (triprural + roundtriprural) * hourmaintenance, taxcity = (tripcity + roundtripcity) * taxeshourly, taxrural = (triprural + roundtriprural) * taxeshourly, tollrural = tollcost * tollsquantity, operationalexpensescity = gasolinecity + oilcity + soatcity + technocity + maintenancecity + taxcity, operationalexpensesrural = gasolinerural + oilrural + soatrural + technorural + maintenancerural + taxrural, totaltriparounddeliverycity = (tripcity + roundtripcity) * operationalexpensescity, totaltriparounddeliveryrural = (triprural + roundtriprural) * operationalexpensesrural, deliveryprofitcity = drivenhourscity * drivenhourcostcity, deliveryprofitrural =  drivenhoursrural * drivenhourcostrural, subtotaldeliverycity = totaltriparounddeliverycity + deliveryprofitcity, subtotaldeliveryrural = totaltriparounddeliveryrural + deliveryprofitrural, totaldeliverycity = subtotaldeliverycity + unforeseencity, totaldeliveryrural = subtotaldeliveryrural + unforeseenrural;
+
+
+
+
+
+
+
+
+
+
+
+
+salarydaily = salarymonthly / salarymonthlydays,
+
+salaryhourly = salarydaily / hoursbyday, 
+
+gasolinecostperkm = gasolinefull / gasolinekms, 
+
+oilbykm = oilfull / oilrenewkms, 
+
+soatdaily = soatyearly / yearlydays, 
+
+soathourly = soatdaily / hoursbyday, 
+
+technomechanicaldaily = technomechanicalyearly / yearlydays,
+
+technomechanicalhour = technomechanicaldaily / hoursbyday,
+
+dailymaintenance = quarterlymaintenance / quarterlydays, 
+
+hourmaintenance = dailymaintenance / hoursbyday,
+
+taxesdaily = anuallytaxes / yearlydays,
+
+taxeshourly = taxesdaily / hoursbyday,
+
+drivenhourcostcity = salaryhourly,
+
+drivenhourcostrural = ((salaryhourly * 103.1)/100) + salaryhourly,
+
+totalcostdrivencity = drivenhourcostcity * drivenhourscity,
+
+totalcostdrivenrural = drivenhourcostrural * drivenhoursrural,
+
+minimalprofit = salaryhourly,
+
+gasolinecity = deliverydistancecity * gasolinecostperkm,
+
+gasolinerural = deliverydistancerural * gasolinecostperkm,
+
+oilcity = deliverydistancecity * oilbykm,
+
+oilrural = deliverydistancerural * oilbykm,
+
+soatcity = (tripcity + roundtripcity) * soathourly,
+
+soatrural = (triprural + roundtriprural) * soathourly,
+
+technocity = (tripcity + roundtripcity) * technomechanicalhour,
+
+technorural = (triprural + roundtriprural) * technomechanicalhour,
+
+maintenancecity = (tripcity + roundtripcity) * hourmaintenance,
+
+maintenancerural = (triprural + roundtriprural) * hourmaintenance,
+
+taxcity = (tripcity + roundtripcity) * taxeshourly,
+
+taxrural = (triprural + roundtriprural) * taxeshourly,
+
+tollrural = tollcost * tollsquantity,
+
+operationalexpensescity = gasolinecity + oilcity + soatcity + technocity + maintenancecity + taxcity,
+
+operationalexpensesrural = gasolinerural + oilrural + soatrural + technorural + maintenancerural + taxrural,
+
+totaltriparounddeliverycity = (tripcity + roundtripcity) * operationalexpensescity,
+
+totaltriparounddeliveryrural = (triprural + roundtriprural) * operationalexpensesrural,
+
+deliveryprofitcity = drivenhourscity * drivenhourcostcity,
+
+deliveryprofitrural =  drivenhoursrural * drivenhourcostrural,
+
+subtotaldeliverycity = totaltriparounddeliverycity + deliveryprofitcity,
+
+subtotaldeliveryrural = totaltriparounddeliveryrural + deliveryprofitrural,
+
+totaldeliverycity = subtotaldeliverycity + unforeseencity,
+
+totaldeliveryrural = subtotaldeliveryrural + unforeseenrural
+

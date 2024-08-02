@@ -1,0 +1,191 @@
+ /* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 5px double #ccc;
+    background-color: #f1f1f1;
+	font-family: arial;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left; font-family: arial;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 30px;
+	font-family: arial;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd; font-family: arial}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc; font-family: arial}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	font-family: arial;
+}
+
+header {
+        background-color: #333; /* Color de fondo del encabezado */
+        color: #fff; /* Color del texto */
+        padding: 10px 0; /* Espaciado interno superior e inferior */
+        text-align: center; /* Alinear texto al centro */
+    }
+.rectangle {
+        width: 100%; /* Ancho del rectángulo al 100% del contenedor */
+        height: 60px; /* Altura del rectángulo */
+        background-color: #555; /* Color de fondo del rectángulo */
+        display: flex; /* Utilizar flexbox para centrar verticalmente */
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+        }
+		
+.rectangle1 {
+        width: 100%; /* Ancho del rectángulo al 100% del contenedor */
+        height: 300px; /* Altura del rectángulo */
+        background-color: #555; /* Color de fondo del rectángulo */
+        display: flex; /* Utilizar flexbox para centrar verticalmente */
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+		padding: 10px 0;
+        }		
+		
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+			  
+h6{
+  color:white; 
+  font-size: 150%; 
+  text-align: center;
+  line-height: 0.1;
+ }
+
+.vehicle{
+  color:white; 
+  font-size: 150%; 
+  text-align: center;
+  line-height: 0.1;
+ } 
+
+
+#username2{
+	font-size:105%;
+	margin:40px auto;
+	padding:5px;
+	background:gray;
+	##box-shadow:#999 5px 5px 10px;
+	width:600px;
+	border-radius: 10px;
+	font-family: arial;
+	color:white;
+}
+
+#date{
+font-size: 20px;
+}
+
+#form_title2{
+	background-color:gray;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	font-family: arial;
+	border-radius:10px;
+    margin-left: 5px;	
+}
+
+
+#Display{
+	background-color:#ccc;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	font-family: arial;
+	float:auto;
+}
+
+#username1
+	{
+		font-size:100%;
+		margin-left: 2em;
+		font-family: arial;
+	}
+
+#text
+	{
+		font-size:100%;
+		margin-left: 2em;
+		font-family: arial;
+		width: 100%;
+	}
+	
+	
+#login
+       {
+		font-size:105%;
+		margin:40px auto;
+		padding:5px;
+		background:gray;
+		##box-shadow:#999 5px 5px 10px;
+		width:600px;
+		border-radius: 10px;
+		font-family: arial;
+		color:white;
+	}
+	
+#loginbutton
+   {
+		font-size:105%;
+		margin:40px auto;
+		padding:8px;
+		background:red;
+		width:25%;
+		border-radius: 10px;
+		font-family: arial;
+		color:white;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+	}	
+	
+input, select  {
+    width: 25%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+	border-radius: 10px;
+}
+
+
+
+#viewHistorical {
+  position: fixed;
+  top: 20px; /* Ajusta según tu preferencia */
+  right: 20px; /* Ajusta según tu preferencia */
+  padding: 10px 20px;
+  background-color: #007bff; /* Cambia el color de fondo según tu preferencia */
+  color: #ffffff; /* Cambia el color del texto según tu preferencia */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#viewHistorical:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
