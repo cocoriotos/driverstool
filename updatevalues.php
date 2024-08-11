@@ -22,13 +22,11 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-print $salarymonthly;
-print $vehicle;
-print $usernamer;
 
 
 ##$query="UPDATE drivers_opsvalues SET  salarymonthly = '$salarymonthly', gasolinekms ='$gasolinekms', gasolinefull = '$gasolinefull', oilfull = '$oilfull', soatyearly = '$soatyearly', technomechanicalyearly ='$technomechanicalyearly', quarterlymaintenance = '$quarterlymaintenance', anuallytaxes = '$anuallytaxes', tollcost = '$tollcost', drivenhourcostcity = '$drivenhourcostcity', drivenhourcostrural = '$drivenhourcostrural', unforeseencity = '$unforeseencity', unforeseenrural = '$unforeseenrural', hoursbyday = '$hoursbyday'  where vehicle = '$vehicle' and user='$usernamer'";
-$query="UPDATE drivers_opsvalues SET  salarymonthly = '$salarymonthly' where vehicle = '$vehicle' and user='$usernamer'";
+$query="UPDATE drivers_opsvalues SET  salarymonthly = '$salarymonthly'; 
+##where vehicle = '$vehicle' and user='$usernamer'";
 $resultado= $conn ->query($query);
 
 if ($resultado){
