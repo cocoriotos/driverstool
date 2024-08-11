@@ -32,10 +32,10 @@ if ($resultado){
   echo 	"Valores Operacionales Actualizados";
   $_SESSION['message']='Valores Actualizados Existosamente';
   $_SESSION['message_type']='Exitoso';
-  header("refresh:0; url=driversQuotationOpsaAndAdminVehicleuser.php");
+  header("refresh:10; url=driversQuotationOpsaAndAdminVehicleuser.php");
     }
   else{
       echo 	"Valores no se pudieron actualizar, inténtelo nuevamente";
-      header("refresh:0; url=driversQuotationOpsaAndAdminVehicleuser.php");
+      header("refresh:10; url=driversQuotationOpsaAndAdminVehicleuser.php");
       }
 ?>

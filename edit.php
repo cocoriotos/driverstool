@@ -10,7 +10,6 @@ $vehicle = $_POST['vehicle'];
 $usernamer=$_POST['usernamer1'];
 //print $usernamer;
 //print $_SESSION['counter'];
-
 ?>
 
 <link rel="stylesheet" href="tab.css">
