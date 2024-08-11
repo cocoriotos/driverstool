@@ -80,6 +80,14 @@ header {
 		border-radius:15px;
 		text-shadow: white 5px 5px 20px;
 	}
+	
+	#contact
+	{
+	background-color:#032642;
+	width:98%;
+	margin:40px auto;
+	font-family: arial;
+	}
 			  
 h6{
   color:white; 
