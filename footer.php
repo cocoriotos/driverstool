@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
  <html lang="us">
-<link rel="stylesheet" href="style_sheet.css">
+<link rel="stylesheet" href="tab.css">
  <footer id="contact">
  <!--<div class="rectangle1">-->
     <hgroup>

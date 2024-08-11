@@ -64,37 +64,18 @@ header {
 		padding: 10px 0;
         }		
 		
-/*footer {
+footer {
   position: relative;
   bottom: 0;
   width: 100%;
   line-height: 1;
-}*/
-
- footer
-	{
-		background-color:#0085c3; /* background color for footer  only*/	
-		width:98%;
-		font-family: arial;
-		margin:40px auto;
-		border-radius:15px;
-		text-shadow: white 5px 5px 20px;
-	}
-	
-	#contact
-	{
-	background-color:#032642;
-	width:98%;
-	margin:40px auto;
-	font-family: arial;
-	}
+}
 			  
 h6{
   color:white; 
-  /*font-size: 150%;*/
-  font-size: 115%;  
+  font-size: 150%; 
   text-align: center;
-  /*line-height: 0.1;*/
+  line-height: 0.1;
  }
 
 .vehicle{
