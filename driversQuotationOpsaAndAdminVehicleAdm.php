@@ -21,7 +21,7 @@ include "db_connection1.php";
 						    <center><input style="font-size: 150%; text-align: center;" type="submit" class="btn btn-success btn-block" name="logout" value="Administracion de App" /></center>
 					</form>
 					<form action="DriversQuotationFinal.php">
-                         <center><input style="font-size: 150%; text-align: center;" type="submit" class="btn btn-success btn-block" name="logout" value="Logout" /></center>
+                         <center><input style="font-size: 150%; text-align: center;" type="submit" class="btn btn-success btn-block" name="logout" value="Salir" /></center>
                     </form>					
 			</div>
 		</div>

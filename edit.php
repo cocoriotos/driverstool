@@ -64,7 +64,7 @@ $usernamer=$_POST['usernamer1'];
 					<input type="text" style="color:black; font-size: 150%; text-align: center;" name="hoursbyday" class="form-control" placeholder="hoursbyday" autofocus value="<?php echo $row['hoursbyday']; ?>" ></input><br>
 					<input id="loginbutton" style="font-size: 150%; text-align: center;"name="updatevalues" type="submit" value="Actualizar Valores"><br><br> 
 				    <input id="loginbutton" type="submit" class="btn btn-success btn-block" style="background-color:green; color:white; font-size: 150%; text-align: center;" name="cancel" value="Ir a Cotizar" formaction="quoteservices.php"><br>
-                    <input type="submit" style="font-size: 150%; text-align: center;" class="btn btn-success btn-block" name="cancel" value="Cancel" formaction="driversQuotationOpsaAndAdminVehicleuser.php"/>
+                    <input type="submit" style="font-size: 150%; text-align: center;" class="btn btn-success btn-block" name="cancel" value="Cancelar" formaction="driversQuotationOpsaAndAdminVehicleuser.php"/>
 				</form>
 			</center>					
 					<!--<form action="quoteservices.php">

@@ -32,7 +32,7 @@ $usernamer=$_SESSION['usernamer'];
                          <center><input style="font-size: 150%; text-align: center;" type="submit" class="btn btn-success btn-block" name="logout" value="Histórico de Servicios" /></center>
                     </form>-->
 					<form action="DriversQuotationFinal.php">
-                         <center><input style="font-size: 150%; text-align: center;" type="submit" class="btn btn-success btn-block" name="logout" value="Logout" /></center>
+                         <center><input style="font-size: 150%; text-align: center;" type="submit" class="btn btn-success btn-block" name="logout" value="Salir" /></center>
                     </form>
 			</div>
 		</div>
@@ -45,7 +45,7 @@ $usernamer=$_SESSION['usernamer'];
 		<?php include("search.php") ?>
 		<br>
 		<center><label id="username1" name="vehicle" style="color:black; font-size: 150%; text-align: center;"><strong>------------------------------------------------------------------------------------------------------------ Tabla de Cotizaciones realizadas ------------------------------------------------------------------------------------------------------------</strong></label></center>
-		<center><label id="username1" name="vehicle" style="color:red; font-size: 100%; text-align: center; text-decoration: underline; font-style: italic; font-weight: bold; "><strong> Puede consultar los detalles y/o eliminarla si no fue prestado el servicio </strong></label></center>
+		<center><label id="username1" name="vehicle" style="color:red; font-size: 100%; text-align: center; text-decoration: underline; font-style: italic; font-weight: bold; "><strong> Puede consultar los detalles y/o eliminarlo si no fue prestado el servicio </strong></label></center>
 			<table id="autosearch" class="display" font color="black">
 				<thead>
 				   <tr>

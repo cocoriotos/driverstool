@@ -153,9 +153,9 @@ include "db_connection1.php";
 					</div> -->
 					
 					
-					<input type="submit" class="btn btn-success btn-block" name="save_task" value="Update Values"></input>
-					<input type="submit" class="btn btn-success btn-block" name="logout" value="Logout" formaction="DriversQuotationFinal.php"></input>
-					<input type="submit" class="btn btn-success btn-block" name="logout" value="Refresh" formaction="driversQuotationOpsaAndAdminfinal.php""></input>
+					<input type="submit" class="btn btn-success btn-block" name="save_task" value="Actualizar Valores"></input>
+					<input type="submit" class="btn btn-success btn-block" name="logout" value="Salir" formaction="DriversQuotationFinal.php"></input>
+					<input type="submit" class="btn btn-success btn-block" name="logout" value="Refrescar" formaction="driversQuotationOpsaAndAdminfinal.php""></input>
 				</form>
 			</div>
 		</div>

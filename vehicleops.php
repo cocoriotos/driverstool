@@ -64,7 +64,7 @@ $counter=$_SESSION['counter'];
 					<input id="loginbutton" style="background-color:red; color:white; font-size: 150%; text-align: center; width: 500px;" name="editvalues" type="submit" value="Editar Valores"><br><br> 
 					<center>
 					<input type="submit" class="btn btn-success btn-block" style="background-color:green; color:white; font-size: 150%; text-align: center; width: 500px;" name="quote" value="Ir a Cotizar" formaction="quoteservices.php"><br><br>
-					<input type="submit" class="btn btn-success btn-block" style="font-size: 150%; text-align: center; width: 500px;" name="cancel" value="Cancel" formaction="driversQuotationOpsaAndAdminVehicleuser.php">
+					<input type="submit" class="btn btn-success btn-block" style="font-size: 150%; text-align: center; width: 500px;" name="cancel" value="Cancelar" formaction="driversQuotationOpsaAndAdminVehicleuser.php">
                     </center>
 
 				</form>
