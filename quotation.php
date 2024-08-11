@@ -109,7 +109,7 @@ $row=mysqli_fetch_array($result_tasks);
 					<center><input type="text" style="background-color: green; color: white; font-size: 180%; text-align: center;" name="deliveryprofitrural" class="form-control" placeholder="deliveryprofitrural" autofocus value="<?php echo '$' . number_format($row['deliveryprofitrural'], 2, '.', ','); ?>" readonly ></input></center><br>
 					<center><label id="username1" style="color:black; font-size: 150%; text-align: center;"><strong>Total Gastos de Operación Rural</strong></label></center></center><br> 
 					<center><input type="text" style="color:black; font-size: 150%; text-align: center;" name="totaloperationalexpensesrural" class="form-control" placeholder="totaloperationalexpensesrural" autofocus value="<?php echo '$' . number_format($row['totaloperationalexpensesrural'], 2, '.', ','); ?>" readonly ></input></center><br>
-                <center><input id="loginbutton" style="font-size: 150%; text-align: center;" type="submit" value="To New Quote"></input></center><br>
+                <center><input id="loginbutton" style="font-size: 150%; text-align: center;" type="submit" value="Siguiente Cotización"></input></center><br>
 				</form>		
 			</center>	   
             </div>
