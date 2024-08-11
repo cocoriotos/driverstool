@@ -1,7 +1,7 @@
 <!--  Developed by julián González Bucheli
 bootstrapCDN https://getbootstrap.com and then download then CDN via jsDeliver and copy links -->
 <?php include "header.php";
-include "db_connection1.php";
+include "db_connection1sp.php";
 include "sessions.php";
 $usernamer=$_SESSION['usernamer'];
 ?>
@@ -9,7 +9,7 @@ $usernamer=$_SESSION['usernamer'];
 <link rel="stylesheet" href="tab.css">
 	   <?php
 
-		  echo "<div align=\"center\"><font size=80% color=black>Welcome! '$usernamer' </font></div>";
+		  echo "<div align=\"center\"><font size=80% color=black>Bienvenido! '$usernamer' </font></div>";
 
 		?>
 

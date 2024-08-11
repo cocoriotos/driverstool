@@ -1,7 +1,7 @@
 <!--  Developed by julián González Bucheli
 bootstrapCDN https://getbootstrap.com and then download then CDN via jsDeliver and copy links -->
 <?php include "header.php";
-include "db_connection1.php"; 
+include "db_connection1sp.php"; 
 ?>
 
 <link rel="stylesheet" href="tab.css">
