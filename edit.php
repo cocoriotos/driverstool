@@ -8,7 +8,9 @@ include "sessions.php";
 //}
 $vehicle = $_POST['vehicle'];
 $usernamer=$_POST['usernamer1'];
-//print $usernamer;
+print $usernamer;
+print $vehicle;
+
 //print $_SESSION['counter'];
 ?>
 
