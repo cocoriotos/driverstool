@@ -25,17 +25,18 @@ if (session_status() === PHP_SESSION_NONE) {
 
 
 
-$query="UPDATE drivers_opsvalues SET  salarymonthly = '$salarymonthly', gasolinekms ='$gasolinekms', gasolinefull = '$gasolinefull', oilfull = '$oilfull', soatyearly = '$soatyearly', technomechanicalyearly ='$technomechanicalyearly', quarterlymaintenance = '$quarterlymaintenance', anuallytaxes = '$anuallytaxes', tollcost = '$tollcost', drivenhourcostcity = '$drivenhourcostcity', drivenhourcostrural = '$drivenhourcostrural', unforeseencity = '$unforeseencity', unforeseenrural = '$unforeseenrural', hoursbyday = '$hoursbyday'  where vehicle = '$vehicle' and user='$usernamer'";
+##$query="UPDATE drivers_opsvalues SET  salarymonthly = '$salarymonthly', gasolinekms ='$gasolinekms', gasolinefull = '$gasolinefull', oilfull = '$oilfull', soatyearly = '$soatyearly', technomechanicalyearly ='$technomechanicalyearly', quarterlymaintenance = '$quarterlymaintenance', anuallytaxes = '$anuallytaxes', tollcost = '$tollcost', drivenhourcostcity = '$drivenhourcostcity', drivenhourcostrural = '$drivenhourcostrural', unforeseencity = '$unforeseencity', unforeseenrural = '$unforeseenrural', hoursbyday = '$hoursbyday'  where vehicle = '$vehicle' and user='$usernamer'";
+$query="UPDATE drivers_opsvalues SET  salarymonthly = '$salarymonthly' where vehicle = '$vehicle' and user='$usernamer'";
 $resultado= $conn ->query($query);
 
 if ($resultado){
   echo 	"Valores Operacionales Actualizados";
   $_SESSION['message']='Valores Actualizados Existosamente';
   $_SESSION['message_type']='Exitoso';
-  header("refresh:10; url=driversQuotationOpsaAndAdminVehicleuser.php");
+  header("refresh:0; url=driversQuotationOpsaAndAdminVehicleuser.php");
     }
   else{
       echo 	"Valores no se pudieron actualizar, inténtelo nuevamente";
-      header("refresh:10; url=driversQuotationOpsaAndAdminVehicleuser.php");
+      header("refresh:0; url=driversQuotationOpsaAndAdminVehicleuser.php");
       }
 ?>
