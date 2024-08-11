@@ -21,9 +21,7 @@ $unforeseenrural=$_POST["unforeseenrural"];
 $hoursbyday=$_POST["hoursbyday"]; 
 $usernamer=$_SESSION['usernamer'];
 $_SESSION['counter']=$_SESSION['counter']+1;
-##if (session_status() === PHP_SESSION_NONE) {
-##    session_start();
-##}
+
 
 
 
