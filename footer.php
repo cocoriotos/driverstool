@@ -2,9 +2,9 @@
  <html lang="us">
 <link rel="stylesheet" href="tab.css">
  <footer id="contact">
- <!--<div class="rectangle1">
+ <!--<div class="rectangle1">-->
     <hgroup>
-        <h6 ><address><strong>Desarrollado por: Julián González Bucheli </strong></address></h6>
+        <!--<h6 ><address><strong>Desarrollado por: Julián González Bucheli </strong></address></h6>
         <h6 ><address><strong>Correo: </strong><a href="mailto:cocoriotos@hotmail.com " style="color: white;">cocoriotos@hotmail.com</a></address></h6>
         <h6 ><address><strong>Celular: </strong>(+57) 305 4293185 </address></h6>
         <h6 ><address><strong>Pereira - Colombia </strong></address></h6>
