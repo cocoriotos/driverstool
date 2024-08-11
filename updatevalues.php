@@ -1,6 +1,9 @@
 <?php 
 include "db_connection1.php";
 
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 $vehicle=$_POST["vehicle"];
 $salarymonthly=$_POST["salario"];
 $gasolinekms=$_POST["gasolinekms"];
@@ -18,9 +21,9 @@ $unforeseenrural=$_POST["unforeseenrural"];
 $hoursbyday=$_POST["hoursbyday"]; 
 $usernamer=$_SESSION['usernamer'];
 $_SESSION['counter']=$_SESSION['counter']+1;
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
+##if (session_status() === PHP_SESSION_NONE) {
+##    session_start();
+##}
 
 
 
